@@ -13,7 +13,7 @@
 from __future__ import absolute_import, division, print_function
 
 
-__version__ = "0.9.54"
+__version__ = "0.9.54-ng"
 
 import collections
 import sys
