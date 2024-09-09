@@ -16,9 +16,9 @@ with io.open("README.md", encoding="utf-8") as fileObj:
     long_description = fileObj.read()
 
 setup(
-    name='PyAutoGUI',
+    name='PyAutoGUI-ng',
     version=version,
-    url='https://github.com/asweigart/pyautogui',
+    url='https://github.com/bandoche/pyautogui-ng',
     author='Al Sweigart',
     author_email='al@inventwithpython.com',
     description=('PyAutoGUI lets Python control the mouse and keyboard, and other GUI automation tasks. For Windows, macOS, and Linux, on Python 3 and 2.'),
@@ -29,8 +29,7 @@ setup(
     test_suite='tests',
     install_requires=['pyobjc-core;platform_system=="Darwin"',
                       'pyobjc-framework-quartz;platform_system=="Darwin"',
-                      'python3-Xlib;platform_system=="Linux" and python_version>="3.0"',
-                      'python-xlib;platform_system=="Linux" and python_version<"3.0"',
+                      'python-xlib;platform_system=="Linux"',
                       'pymsgbox',
                       'pytweening>=1.0.4',
                       'pyscreeze>=0.1.21',
@@ -47,17 +46,11 @@ setup(
         'Operating System :: OS Independent',
         'Programming Language :: Python',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.1',
-        'Programming Language :: Python :: 3.2',
-        'Programming Language :: Python :: 3.3',
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
-        'Programming Language :: Python :: 3.6',
-        'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.10',
         'Programming Language :: Python :: 3.11',
+        'Programming Language :: Python :: 3.12',
     ],
 )
 

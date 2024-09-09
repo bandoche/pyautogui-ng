@@ -1,28 +1,28 @@
-PyAutoGUI
+PyAutoGUI-ng
 =========
 
-PyAutoGUI is a  cross-platform GUI automation Python module for human beings. Used to programmatically control the mouse & keyboard.
+PyAutoGUI-ng is a cross-platform GUI automation Python module for human beings. It is forked version of PyAutoGUI for update dependencies. Used to programmatically control the mouse & keyboard.
 
-`pip install pyautogui`
+`pip install pyautogui-ng`
 
 Full documentation available at https://pyautogui.readthedocs.org
 
 Simplified Chinese documentation available at https://github.com/asweigart/pyautogui/blob/master/docs/simplified-chinese.ipynb
 
-Source code available at https://github.com/asweigart/pyautogui
+Source code available at https://github.com/bandoche/pyautogui-ng
 
 If you need help installing Python, visit https://installpython3.com/
 
 Dependencies
 ============
 
-PyAutoGUI supports Python 2 and 3. If you are installing PyAutoGUI from PyPI using pip:
+PyAutoGUI-ng supports Python 3.8 or later. If you are installing PyAutoGUI from PyPI using pip:
 
 Windows has no dependencies. The Win32 extensions do not need to be installed.
 
 macOS needs the pyobjc-core and pyobjc module installed (in that order).
 
-Linux needs the python3-xlib (or python-xlib for Python 2) module installed.
+Linux needs the python-xlib module installed.
 
 Pillow needs to be installed, and on Linux you may need to install additional libraries to make sure Pillow's PNG/JPEG works correctly. See:
 
@@ -30,7 +30,7 @@ Pillow needs to be installed, and on Linux you may need to install additional li
 
     http://ubuntuforums.org/showthread.php?t=1751455
 
-If you want to do development and contribute to PyAutoGUI, you will need to install these modules from PyPI:
+If you want to do development and contribute to PyAutoGUI-ng, you will need to install these modules from PyPI:
 
 * pyscreeze
 * pymsgbox
@@ -127,4 +127,4 @@ The three major operating systems (Windows, macOS, and Linux) each have differen
 Support
 -------
 
-If you find this project helpful and would like to support its development, [consider donating to its creator on Patreon](https://www.patreon.com/AlSweigart).
+If you find this project or PyAutoGUI helpful and would like to support its development, [consider donating to its creator on Patreon](https://www.patreon.com/AlSweigart).
